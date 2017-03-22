@@ -1,0 +1,74 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#container{
+	position: relative;
+	height:500px;
+	width: 90%;
+	border: 2px solid red;
+	background-image: url("../images/background.png");
+	margin-top: 10px;
+	margin-left: 5%; 
+	overflow: hidden;
+}
+
+#bird{
+	position: absolute;
+	background: url("../images/bird.gif");
+	height: 42px;
+	width: 65px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 20%;
+	left: 15%;
+}
+
+.pole{
+	position: absolute;
+	height: 180px;
+	width: 90px;
+	background-image: url("../images/wall.png");
+	border: 1px solid black;
+	right: -50px;
+}
+#pole_1{
+	top: 0;
+}
+#pole_2{
+	bottom: 0;
+}
+#speed_score_div{
+	text-align: center;
+	font-size: 40px;
+}
+#help{
+	text-align: center;
+}
+#restart_btn{
+	position: absolute;
+	align-content: center;
+	width: 100%;
+	padding: 20px;
+	color: red;
+	font-size: 35px;
+	border: none;
+	cursor: pointer;
+	display: none;
+	left: 600px
+}
+
+#point{
+	margin-left: 1000px;
+	font-size: 55px;
+	text-align: left;
+	color: rgb(0,255,0);
+}
+#over{
+	margin-left: 600px;
+	display: none;
+	color: black;
+	font-size: 40px;
+}
